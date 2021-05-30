@@ -7,3 +7,9 @@ static const auto io_sync_off = []()
     // untie in/out streams
     cin.tie(NULL); return 0;
 }();
+
+static const auto x=[](){
+    std::ios::sync_with_stdio(false);
+    std::cin.tie(nullptr);
+    return nullptr;
+}();
